@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ddd;
+}
+
+/* Carousel Styles */
+.carousel-item {
+    height: 75vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+.carousel-caption h2 {
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption .btn {
+    margin: 5px;
+}
+
+/* Content Section Styles */
+.container .row.mb-2 .col-md-6 {
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+.border {
+    border: 1px solid #ddd !important;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.h-md-250 {
+    height: 250px;
+}
+
+.position-static {
+    position: static !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+footer p {
+    margin: 0;
+    color: #6c757d;
+}
+
+/* Button Styles */
+.btn-lg {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 1rem;
+    }
+
+    .container .row.mb-2 .col-md-6 {
+        margin-bottom: 15px;
+    }
+
+    .position-static {
+        padding: 15px;
+    }
+}
